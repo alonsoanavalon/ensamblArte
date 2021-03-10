@@ -1,0 +1,13 @@
+@import 'normalize';
+@import 'variables';
+@import 'layout';
+@import 'mediaqueries';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+
+* {
+    scroll-behavior: smooth;
+    font-family: $primary-font;
+}

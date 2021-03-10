@@ -1,0 +1,243 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+    body {
+        .header {
+
+            .nav-menu {
+                justify-content: center;
+                a {
+                    font-size: $desktop-regular;
+                    margin:0 1rem;
+                }
+
+                .social {
+                    margin-right:1.5rem;
+                   .social-item {
+                       margin: 0 .6rem;
+               
+                   }
+                }
+            }
+
+   
+
+            .logo {
+                margin-left:4rem;
+                img {
+                    width:200px;
+                }
+            }
+         
+        }
+    }
+
+
+    
+        
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+    body {
+        .main {
+            .catalogue {
+                .products {
+                    .item {
+                        width:350px;
+                        min-height: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    body {
+
+
+        .header {
+            .nav-menu {
+
+                a {
+                    font-size: $desktop-subtitle;
+                }
+                .social {
+                    .social-item {
+                        img {
+                            width:40px;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* main */
+        .main {
+
+            .us {
+                .main-title {
+                    font-size: $desktop-title;
+                }
+                .main-subtitle {
+                    font-size: $desktop-subtitle;
+                }
+                .wood-icon {
+                    width:80px;
+                }
+
+                .us-description {
+                    font-size: $desktop-regular;
+                    max-width:1000px;
+                    margin:0 auto;
+                    padding:1rem;
+                }
+            
+            }
+        }
+
+        /* mercadolibre */
+
+        .market {
+
+            height:400px;
+            h2 {
+                font-size: $desktop-title;
+            }
+            a {
+                font-size: $desktop-subtitle;
+            }
+        }
+
+        /* destacados slider */
+
+        .container-slider {
+            .slider-title {
+                font-size: $desktop-title;
+            }
+            .wood-icon {
+                width:80px;
+            }
+        }
+
+        /* catalogo */
+
+        .catalogue {
+            max-width:1200px;
+            margin:0 auto;
+            .catalogue-title {
+                h2 {
+                    font-size: $desktop-title;
+                }
+                .wood-icon {
+                    width:80px;
+                }
+            }
+
+            .products {
+                gap:2rem;
+                .item {
+                    p {
+                        font-size: $desktop-regular;
+                        
+                    }
+                    transition: transform .3s ease-out;
+                }
+                .item:hover {
+                    transform: translateY(-20px);
+                    transition: all .3s ease;
+                }
+
+                
+            }
+            .more {
+                font-size: $desktop-regular
+            }
+
+         
+        }
+
+           /* contact */
+
+           .contacto {
+            h3 {
+                font-size: $desktop-title;
+                line-height: 1rem;
+            }
+
+            #submit {
+                font-size: $desktop-regular;
+            }
+        }
+
+        /* footer */
+
+        .footer {
+            .footer-container {
+                .explore {
+                    h3 {
+                        font-size: $desktop-title;
+                    }
+
+                    a, p {
+                        font-size: $desktop-regular;
+                    }
+                }
+                .follow {
+                    h3 {
+                        font-size: $desktop-title;
+                    }
+
+                    a {
+                        font-size: $desktop-regular;
+                    }
+                }
+
+                img {
+                    width:300px;
+                }
+            }
+        }
+
+    }
+
+    /* us */
+
+
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+    body {
+        .header {
+            height:700px;
+            .nav-menu {
+                .social {
+                    .social-item {
+                        img {
+                            margin: 0 .7rem;
+                        }
+                    }
+                }
+            }
+
+            .logo {
+                margin-top:15rem;
+                margin-left:10rem;
+                img {
+                    width:300px;
+                }
+            }
+        }
+    }
+
+
+ }
+

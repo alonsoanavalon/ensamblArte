@@ -1,0 +1,33 @@
+.main {
+    .us {
+        text-align: center;
+        padding:1rem;
+        color:$cafe;
+        h1 {
+            font-size: $title;
+        }
+        h2{
+            line-height: 0;
+            font-size: $subtitle;
+        }
+
+        .wood-icon {
+            width:60px;
+            padding:.5rem 0;
+        }
+        .us-description {
+
+            p {
+                line-height: 1.5rem;
+                color:$negro;
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+        
+
+
+
+    }
+}

@@ -1,0 +1,30 @@
+.market {
+    background-image: url("/assets/0000338312.jpg");
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+
+    height:250px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    h2 {
+    padding:1rem;
+    color:#fff;
+    font-size: $title;
+    }
+
+    a {
+        text-decoration: none;
+        color:#fff;
+        font-weight: 500;
+        padding:.5rem 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        font-size: $subtitle;
+    }
+}
