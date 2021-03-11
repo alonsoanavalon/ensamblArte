@@ -399,11 +399,13 @@ body {
     body .contacto #submit {
       font-size: 1.2rem; }
     body .footer .footer-container .explore h3 {
-      font-size: 2rem; }
+      font-size: 2rem;
+      font-weight: bold; }
     body .footer .footer-container .explore a, body .footer .footer-container .explore p {
       font-size: 1.2rem; }
     body .footer .footer-container .follow h3 {
-      font-size: 2rem; }
+      font-size: 2rem;
+      font-weight: bold; }
     body .footer .footer-container .follow a {
       font-size: 1.2rem; }
     body .footer .footer-container img {
@@ -585,6 +587,8 @@ body {
     align-content: center;
     gap: 20px; }
     .catalogue .products .item {
+      text-decoration: none;
+      color: #333;
       padding-top: 1.5rem;
       width: 165px;
       text-align: center;

@@ -28,6 +28,8 @@
         align-content: center;
         gap:20px;
         .item {
+            text-decoration: none;
+            color:$negro;
             padding-top:1.5rem;
             width:165px;
             text-align: center;
