@@ -1,5 +1,5 @@
 .market {
-    background-image: url("/assets/0000338312.jpg");
+    background-image: url("https://res.cloudinary.com/keyzen/image/upload/v1615426892/ensamblartecl/0000338312_nxbimm.png");
     background-position: center;
     background-clip: border-box;
     background-size: cover;
@@ -24,7 +24,11 @@
         font-weight: 500;
         padding:.5rem 1rem;
         background: rgba(255, 255, 255, 0.2);
-        border-radius: 10px;
+        border-radius: 10gfpx;
         font-size: $subtitle;
-    }
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
 }

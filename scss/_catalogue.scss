@@ -55,7 +55,6 @@
 
     .more {
         margin:0 auto;
-
         text-align: center;
         padding:.5rem 1rem;
         background-color: $cafeclaro;
@@ -63,9 +62,12 @@
         text-decoration: none;
         font-weight: 500;
         border-radius:.5rem;
-
         display: inline-block;
-    }
+        -webkit-border-radius:.5rem;
+        -moz-border-radius:.5rem;
+        -ms-border-radius:.5rem;
+        -o-border-radius:.5rem;
+}
     
 
 }
